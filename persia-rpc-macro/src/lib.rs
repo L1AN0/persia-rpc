@@ -1,6 +1,6 @@
 use syn::{Attribute, Ident, ReturnType, PatType, Receiver, FnArg, ImplItem};
 use proc_macro::TokenStream;
-use syn::export::TokenStream2;
+use proc_macro2::TokenStream as TokenStream2;
 use quote::ToTokens;
 
 #[allow(dead_code)]
