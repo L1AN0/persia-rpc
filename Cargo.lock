@@ -852,6 +852,7 @@ name = "persia-rpc-macro"
 version = "0.4.0"
 dependencies = [
  "proc-macro-crate",
+ "proc-macro2",
  "quote",
  "syn",
 ]
